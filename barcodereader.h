@@ -480,16 +480,4 @@ inline void registerQmlAndMetatypes(){
 } //namespace ZXingQt
 
 #endif //QT_QML_LIB
-
-
-
-
-
-
-
-
-
-
-
-
 #endif // BARCODEREADER_H

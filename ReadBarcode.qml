@@ -24,6 +24,7 @@ Rectangle {
         id: barcodeReader
         videoSink: videoOutput.videoSink
 
+
         formats: (linearSwitch.checked ? (ZXing.LinearCodes) : ZXing.None) | (matrixSwitch.checked ? (ZXing.MatrixCodes) : ZXing.None)
         tryRotate: tryRotateSwitch.checked
         tryHarder: tryHarderSwitch.checked
@@ -91,6 +92,7 @@ Rectangle {
             id: videoOutput
             Layout.fillHeight: true
             Layout.fillWidth: true
+            orientation: -360
 
             function mapPointToItem(point)
             {

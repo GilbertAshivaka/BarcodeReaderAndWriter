@@ -38,7 +38,7 @@ Rectangle {
         }
 
         onClicked: {
-            barcodeWriter.writeAndSaveBarcode("qrcode", barcodeText.text)
+            barcodeWriter.writeAndSaveBarcode("Code128", barcodeText.text)
         }
     }
 

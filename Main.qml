@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Libro LMS
+ * Copyright 2025 Libro ILMS
  */
 
 import QtQuick
